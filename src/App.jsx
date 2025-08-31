@@ -22,7 +22,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> Save DATA TO CAMPUS ADMINISTRATION
+          Edit <code>src/App.jsx</code> Save DATA TO CAMPUS
         </p>
       </div>
       <p className="read-the-docs">
