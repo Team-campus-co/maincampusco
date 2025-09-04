@@ -1,6 +1,6 @@
 import React from "react";
 
-import ImageWithBasePath from "../../../core/common/imageWithBasePath";
+// import ImageWithBasePath from "../../../core/common/imageWithBasePath";
 
 const ForgotPassword = () => {
   
