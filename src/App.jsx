@@ -2,19 +2,20 @@ import { useState } from 'react'
 import auth_campuscommander_logo from './assets/react.svg'
 import auth_campuscommander_logo1 from '/vite.svg'
 import './App.css'
+import ForgotPassword from './components/forgotpassword'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <div>
+      <h1 style={{ textAlign: "center" }}>Welcome to CampusCo 🚀</h1>
+      <ForgotPassword />
+    </div>
       <div>
-        <a href="https://campuscommander.com" target="_blank">
-          <img src={auth_campuscommander_logo1} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://campuscommander.com" target="_blank">
-          <img src={auth_campuscommander_logo} className="logo react" alt="React logo" />
-        </a>
+        
+       
       </div>
       <h1>Vite + React</h1>
       <div className="card">
